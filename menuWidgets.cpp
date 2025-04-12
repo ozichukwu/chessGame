@@ -522,7 +522,7 @@ void Menu::startGame(PlayerType playAs) {
 }
 
 void Menu::endGame() {
-	//delete relevant pointers
+	// delete relevant pointers
 	eventMgrPtr->removeEventListeners(chessBoardPtr); //remove events listeners from chessboard
 	delete chessBoardPtr;
 	delete opponentPtr;
